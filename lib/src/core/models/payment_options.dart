@@ -22,8 +22,12 @@ class MoyasarPaymentData {
   ///* Payment purchase amount
   final num purchaseAmount;
 
+    ///* Payment purchase amount
+  final String moyasarPaymentUrl;
+
   MoyasarPaymentData({
     required this.appName,
+    required this.moyasarPaymentUrl,
     required this.secretKey,
     required this.publishableSecretKey,
     required this.purchaseAmount,

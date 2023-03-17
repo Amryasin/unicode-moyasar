@@ -6,7 +6,7 @@ class MoyasarPaymentControllers {
 
   ///* Get api url
   static String moyasarV1ApiUrl = 'https://api.moyasar.com/v1/payments';
-  static String moyasarPaymentUrl = "https://unicode-moyasar.web.app/";
+  // static String moyasarPaymentUrl = "https://ajmal-gulf.com/";
 
   ///* Web view options
   static InAppWebViewGroupOptions webViewGroupOptions =

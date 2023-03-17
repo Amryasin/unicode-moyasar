@@ -36,6 +36,7 @@ class _PaymentViewState extends State<PaymentView> {
       ),
       body: MoyasarPayment(
         moyasarPaymentData: MoyasarPaymentData(
+          moyasarPaymentUrl: '',
           appName: "UNICODE",
           secretKey: "sk_test_key",
           publishableSecretKey: "pk_test_key",
